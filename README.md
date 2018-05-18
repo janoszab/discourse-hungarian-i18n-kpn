@@ -32,7 +32,9 @@ hooks:
     - exec:
         cd: /tmp
         cmd:
-          - git clone https://github.com/taypo/discourse-turkish-i18n-kpn.git
-          - cp -rT discourse-turkish-i18n/ /var/www/discourse/
-          - rm -rf discourse-turkish-i18n
+          - git clone https://github.com/janoszab/discourse-hungarian-i18n-kpn.git
+          - cp -rT discourse-hungarian-i18n-kpn/ /var/www/discourse/
+          - cp -f discourse-hungarian-i18n-kpn/reload_i18n.sh /root/reload_i18n.sh
+          - chmod +x /root/reload_i18n.sh
+          - rm -rf discourse-hungarian-i18n-kpn
 ```
