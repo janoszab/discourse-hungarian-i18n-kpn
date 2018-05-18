@@ -1,7 +1,7 @@
-discourse-turkish-i18n
+discourse-hungarian-i18n
 ======================
 
-Turkish locale files for discourse
+Hungarian locale files for discourse
 
 Idea based on https://github.com/lidel/discourse-locale-override 
 
