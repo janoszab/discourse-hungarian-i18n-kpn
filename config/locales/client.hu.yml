@@ -2698,7 +2698,7 @@ hu:
       selector_all_tags: ""
       selector_no_tags: ""
       changed: ""
-      tags: ""
+      tags: "Címkék"
       choose_for_topic: "Megadható címke"
       delete_tag: ""
       delete_confirm:
