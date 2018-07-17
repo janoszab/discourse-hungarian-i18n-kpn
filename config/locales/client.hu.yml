@@ -1101,7 +1101,7 @@ hu:
     first_post: Első bejegyzés
     mute: Elnémít
     unmute: Némítás feloldása
-    last_post: ""
+    last_post: "Utolsó hozzászólás"
     time_read: ""
     time_read_recently: ''
     time_read_tooltip: ''
