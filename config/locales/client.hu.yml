@@ -1102,7 +1102,7 @@ hu:
     mute: Elnémít
     unmute: Némítás feloldása
     last_post: "Utolsó hozzászólás"
-    time_read: ""
+    time_read: "Olvasással töltött idő"
     time_read_recently: ''
     time_read_tooltip: ''
     time_read_recently_tooltip: ''
