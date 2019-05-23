@@ -1,22 +1,30 @@
-hu:
+hu_HU:
   js:
+    category:
+      sort_options:
+        votes: "Szavazatok"
     voting:
-      reached_limit: "You are out of votes, remove an existing vote!"
-      list_votes: "List your votes"
-      votes_nav_help: "topics with the most votes"
-      voted: "You voted on this topic"
-      allow_topic_voting: "Allow users to vote on topics in this category"
-      vote_title: "Vote"
-      vote_title_plural: "Votes"
-      voted_title: "Voted"
-      voting_closed_title: "Closed"
+      title: "Szavazás "
+      reached_limit: "Kifogytál a szavazatokból, törölj egy korábbi szavazatot!"
+      list_votes: "Szavazataid listázása"
+      votes_nav_help: "legtöbb szavazatot kapott témák"
+      voted: "Már szavaztál erre a témára"
+      allow_topic_voting: "Engedélyezi a felhasználóknak, hogy szavazannak a bejegyzésekre ebben a kategóriában. "
+      vote_title: "Szavazás"
+      vote_title_plural: "Szavazatok"
+      voted_title: "Szavazott"
+      voting_closed_title: "Lezárva"
       voting_limit: "Limit"
       votes_left:
-        one: "You have 1 vote left, see <a href='{{path}}'>your votes</a>."
-        other: "You have {{count}} votes left, see <a href='{{path}}'>your votes</a>."
+        one: "{{count}}szavazatod maradt. <a href='{{path}}'>eddigi szavazataid</a>szavazataid."
+        other: "{{count}}szavazatod maradt. Eddigi <a href='{{path}}'>szavazataid</a>."
       votes:
-        one: "1 vote"
-        other: "{{count}} votes"
+        one: "{{count}}szavazat"
+        other: "{{count}}szavazat"
+      anonymous_button:
+        one: "szavazások "
+        other: "Szavazások"
+      remove_vote: "szavazat törlése "
     filters:
       votes:
-        title: "Votes"
+        title: "Szavazatok"
